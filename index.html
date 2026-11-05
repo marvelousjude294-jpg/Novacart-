@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080b0a">
+  <meta name="description" content="NovaCart — useful finds, smart prices. Browse gadgets, gaming accessories and everyday essentials.">
+  <title>NovaCart | Smart Finds. Better Living.</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="announcement">SMART FINDS. BETTER LIVING. <span>— DELIVERY TERMS CONFIRMED BEFORE EVERY ORDER</span></div>
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="NovaCart home"><span class="brand-mark">N</span><span>NOVA<span class="green">CART</span></span></a>
+    <nav>
+      <a href="#shop">Shop</a>
+      <a href="#how">How it works</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="header-cta" href="#shop">Explore products <span>↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="pulse"></span> THE SMARTER WAY TO SHOP</p>
+        <h1>Find your next<br><span class="outline">favourite.</span></h1>
+        <p class="hero-text">Useful gadgets, gaming essentials and everyday upgrades. Discover products worth adding to your setup.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#shop">Explore the store <span>→</span></a>
+          <a class="text-link" href="#how">How ordering works</a>
+        </div>
+        <div class="hero-note"><span class="tiny-check">✓</span> Product availability and delivery confirmed before payment.</div>
+      </div>
+      <div class="hero-art" aria-label="Abstract NovaCart neon green graphic">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="hero-disc"><span>N</span></div>
+        <div class="art-label label-top">NOVA / 001</div>
+        <div class="art-label label-bottom">DISCOVER WHAT'S NEXT</div>
+        <div class="green-slab"></div>
+      </div>
+    </section>
+
+    <section class="trust-strip">
+      <div><strong>01</strong><span>Browse selected finds</span></div>
+      <div><strong>02</strong><span>Ask us to confirm stock</span></div>
+      <div><strong>03</strong><span>Agree delivery and payment</span></div>
+    </section>
+
+    <section class="shop-section" id="shop">
+      <div class="section-heading">
+        <div><p class="eyebrow">THE COLLECTION</p><h2>Explore the <span class="green">lineup.</span></h2></div>
+        <p class="section-side">A starter catalogue. Items shown are examples until stock, supplier pricing and delivery are verified.</p>
+      </div>
+      <div class="filters" role="group" aria-label="Filter products">
+        <button class="filter active" data-filter="all">All finds</button>
+        <button class="filter" data-filter="gaming">Gaming</button>
+        <button class="filter" data-filter="tech">Tech</button>
+        <button class="filter" data-filter="everyday">Everyday</button>
+      </div>
+      <div class="product-grid" id="productGrid">
+        <article class="product-card" data-category="gaming">
+          <div class="product-visual visual-game"><span class="visual-tag">GAMING</span><div class="controller-shape">⌁</div><span class="visual-caption">LEVEL UP</span></div>
+          <div class="product-info"><div><h3>Mobile Gaming Trigger</h3><p>For compatible mobile games</p></div><span class="product-number">NC / 01</span></div>
+          <button class="order-button" data-product="Mobile Gaming Trigger">Ask about this item <span>↗</span></button>
+        </article>
+        <article class="product-card" data-category="tech">
+          <div class="product-visual visual-stand"><span class="visual-tag">TECH</span><div class="stand-shape"></div><span class="visual-caption">HANDS-FREE</span></div>
+          <div class="product-info"><div><h3>Adjustable Phone Stand</h3><p>A simple desk essential</p></div><span class="product-number">NC / 02</span></div>
+          <button class="order-button" data-product="Adjustable Phone Stand">Ask about this item <span>↗</span></button>
+        </article>
+        <article class="product-card" data-category="everyday">
+          <div class="product-visual visual-organizer"><span class="visual-tag">EVERYDAY</span><div class="organizer-shape"><i></i><i></i><i></i></div><span class="visual-caption">CLEAR THE CLUTTER</span></div>
+          <div class="product-info"><div><h3>Desk Organizer</h3><p>Keep everyday essentials tidy</p></div><span class="product-number">NC / 03</span></div>
+          <button class="order-button" data-product="Desk Organizer">Ask about this item <span>↗</span></button>
+        </article>
+      </div>
+      <p class="catalogue-note">These are sample listings, not confirmed stock or offers. NovaCart will publish actual prices only after supplier and delivery checks.</p>
+    </section>
+
+    <section class="how-section" id="how">
+      <div><p class="eyebrow">SIMPLE PROCESS</p><h2>Clear steps.<br><span class="green">No guesswork.</span></h2></div>
+      <div class="steps">
+        <div class="step"><span>01</span><div><h3>Choose a product</h3><p>Browse the catalogue and message us about the item you want.</p></div></div>
+        <div class="step"><span>02</span><div><h3>We confirm the details</h3><p>We check supplier stock, final price, delivery fee and estimated arrival.</p></div></div>
+        <div class="step"><span>03</span><div><h3>Agree before payment</h3><p>You receive the confirmed order details and payment instructions before deciding.</p></div></div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div><p class="eyebrow">LET'S TALK</p><h2>Need a hand<br>finding something?</h2></div>
+      <div class="contact-box"><p>Message NovaCart with the product name. We'll confirm availability and delivery details before an order is placed.</p><button class="button primary" id="contactButton">Contact NovaCart <span>↗</span></button><small>WhatsApp number must be configured by the store owner first.</small></div>
+    </section>
+  </main>
+
+  <footer><a class="brand" href="#"><span class="brand-mark">N</span><span>NOVA<span class="green">CART</span></span></a><span>© <span id="year"></span> NovaCart. Built for smart finds.</span><a href="#shop">Back to top ↑</a></footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
